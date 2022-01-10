@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(8, 25, 58);
+}
+
+video{
+    display: flex;
+    margin: auto;
+    width: 1000px;
+}
+
+.video-title p:hover{
+    cursor: pointer;
+}
+
+@media (max-width:400px) {
+    video{
+        display: flex;
+        margin: auto;
+        width: 200px;
+    }
+}
+
+@media (max-width:700px) {
+    video{
+        display: flex;
+        margin: auto;
+        width: 400px;
+    }
+}
+@media (max-width:900px) {
+    video{
+        display: flex;
+        margin: auto;
+        width: 700px;
+    }
+}
